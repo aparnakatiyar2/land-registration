@@ -1,5 +1,8 @@
 import React from 'react';
 import "./Home.css";
+import Header from "../Home/Header"
+import {MidSection} from './Mid-section/MidSection';
+
 
 const Home = () => {
     return (
@@ -33,8 +36,10 @@ const Home = () => {
         
         <div className="first-section">
 
-        </div>
+        <Header/>
 
+        </div>
+        <MidSection/>
 
         </>
 
