@@ -1,11 +1,13 @@
 import React from 'react';
 import Home from "./Home/Home";
+import Credential from './Credentials/Credential';
 
 
 const Body = () => {
     return (
         <div>
-            <Home/>
+            {/* <Home/>  */}
+            <Credential/>
         </div>
         
     )
