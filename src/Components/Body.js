@@ -6,8 +6,8 @@ import Credential from './Credentials/Credential';
 const Body = () => {
     return (
         <div>
-            {/* <Home/>  */}
-            <Credential/>
+            <Home/> 
+            {/* <Credential/> */}
         </div>
         
     )
